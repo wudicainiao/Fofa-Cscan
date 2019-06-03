@@ -5,5 +5,6 @@ a Simple tool.Based on fofa.so
 
 **Support CIDR**
 
-**screenshot**
+**screenshot:**
 
+![avatar](/test.jpg)
