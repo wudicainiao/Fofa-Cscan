@@ -7,4 +7,4 @@ a Simple tool.Based on fofa.so
 
 **screenshot:**
 
-![avatar](/test1.jpg)
+![avatar](/test.jpg)
