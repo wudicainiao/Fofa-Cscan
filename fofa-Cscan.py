@@ -14,7 +14,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 def http(url):
     try:
-        r = requests.get(url=url,verify=False)
+        r = requests.get(url=url,verify=False,headers={'Connection':'close'})
         return r.text
     except Exception as e:
         raise e
