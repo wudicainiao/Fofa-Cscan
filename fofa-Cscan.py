@@ -44,6 +44,7 @@ def write_xlsx(res):
     sheet1.cell(row = num+1,column = 4,value = res[3])
     sheet1.cell(row = num+1,column = 5,value = res[4])
     wb.save(define.filename)
+    wb.close()
 
 def creat_xlsx():
     if os.path.exists(define.filename) == False:
