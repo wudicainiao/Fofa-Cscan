@@ -26,7 +26,7 @@ def ip(ip):
 
 def creat_txt():
     if os.path.exists(define.filename) == False:
-        if os.path.exists('out/') == False:
+        if os.path.exists('out\\') == False:
             os.mkdir('out')
         with open(define.filename,'a+',encoding='utf-8') as a:
             print(define.BLUE+"[*]创建文件成功 %s"%define.filename)
@@ -51,7 +51,7 @@ def creat_xlsx():
         s = 0
         wb = ws.Workbook()
         ws1 = wb.active
-        if os.path.exists('out/') == False:
+        if os.path.exists('out\\') == False:
             os.mkdir('out')
         word=['ip','host','title','port','protocol']
         for i in word:
