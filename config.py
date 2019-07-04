@@ -7,7 +7,7 @@ class define:
     BLUE        = "\033[94m"
     ORANGE      = "\033[33m"
     Timeout     = 500
-    filename    = 'out/%s.xlsx' % time.strftime("%Y-%m-%d-%H-%M", time.localtime(time.time()))
+    filename    = 'out\\%s.xlsx' % time.strftime("%Y-%m-%d-%H-%M", time.localtime(time.time()))
 
     FOFA_EMAIL = 'FOFA_EMAIL'    # 使用时替换此处FOFA_EMAIL
     Apikey = 'Apikey'                  # 使用时替换此处Apikey
